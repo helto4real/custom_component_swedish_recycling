@@ -1,0 +1,19 @@
+{
+    "config": {
+        "title": "Svenska återvinningsstationer (ftiab.se)",
+        "step": {
+            "user": {
+                "title": "Namn och stations id",
+                "data": {
+                    "name": "Namn",
+                    "station_id": "Stations Id",
+                    "use_as_state": "Använd som tillstånd"
+                }
+            }
+        },
+        "error": {
+            "name_exists": "Name already exists",
+            "wrong_station_id_or_use_as_state": "Stations id finns ej eller tillstånd ej datum!"
+        }
+    }
+}

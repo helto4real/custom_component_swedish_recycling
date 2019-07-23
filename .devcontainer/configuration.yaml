@@ -1,0 +1,15 @@
+default_config:
+logger:
+  default: error
+  logs:
+    custom_components.swedish_recycling: debug
+
+ptvsd:
+  wait: True
+# Setup old school or through integrations
+binary_sensor:
+  - platform: swedish_recycling
+    entities:
+      thematfors:                     # name of entity
+          station_id: '10421'         # unique station id
+          use_as_state: 'NextCarton'  # what to display as state, can only choose one here
