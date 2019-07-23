@@ -4,6 +4,7 @@ This custom component checks the recycling station (återvinningsstation). Check
 # Usage
 
 ## Copy and paste
+*If you use HACS, skip this step! HACS installs the component*
 The component can be used by copy everything under `custom_component` folder to your `custom_component`, i.e. the `swedish_recycling` folder.
 
 ### Configure trough integrations (prefered way)

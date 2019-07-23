@@ -4,6 +4,7 @@ This custom component checks the recycling station (återvinningsstation). Check
 # Usage
 
 ## Copy and paste
+*If you use HACS, skip this step!*
 The component can be used by copy everything under `custom_component` folder to your `custom_component`, i.e. the `swedish_recycling` folder.
 
 ### Configure trough integrations (prefered way)
@@ -31,3 +32,5 @@ binary_sensor:
 
 ## HACS component
 You can use HACS [Se this link for more information](https://github.com/custom-components/hacs). Add `https://github.com/helto4real/custom_component_swedish_recycling` to custom repository under `SETTINGS`. Select integration as type.
+
+Configure through integrationspage or old school yaml as described above.
