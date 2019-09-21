@@ -1,15 +1,10 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
   "context": "..",
-  "image": "helto4real/devcontainer:0.0.1",
+  "image": "helto4real/devcontainer:hass-0.0.2",
   "appPort": "8124:8123",
-  "runArgs": [
-    "-e",
-    "GIT_EDTIOR='code --wait'"
-  ],
-  "extensions": [
-    "ms-python.python"
-  ],
+  "runArgs": ["-e", "GIT_EDTIOR='code --wait'"],
+  "extensions": ["ms-python.python"],
   "postCreateCommand": "dc install",
   "settings": {
     "python.pythonPath": "/usr/local/bin/python",
